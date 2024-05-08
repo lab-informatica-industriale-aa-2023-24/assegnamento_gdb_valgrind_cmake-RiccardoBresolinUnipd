@@ -6,7 +6,7 @@
 int main()
 {
 	char *p;
-	p = (char *) malloc(20);
+	p = (char *) malloc(30);
 
 	char *s = p;
 	for(int n = 0; n < 20; n++) {
@@ -14,9 +14,11 @@ int main()
 		s++;
 	}
 
+	s = p;
 	for(int n = 0; n < 30; n++) {
 		*s = 'A';
 		s++;
 	}
 
+	free(p);
 }
