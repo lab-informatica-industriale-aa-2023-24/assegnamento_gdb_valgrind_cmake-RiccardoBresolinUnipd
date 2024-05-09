@@ -69,28 +69,28 @@ include CMakeFiles/gdb1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/gdb1.dir/flags.make
 
-CMakeFiles/gdb1.dir/gdb1.c.o: CMakeFiles/gdb1.dir/flags.make
-CMakeFiles/gdb1.dir/gdb1.c.o: ../gdb1.c
-CMakeFiles/gdb1.dir/gdb1.c.o: CMakeFiles/gdb1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gdb1.dir/gdb1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gdb1.dir/gdb1.c.o -MF CMakeFiles/gdb1.dir/gdb1.c.o.d -o CMakeFiles/gdb1.dir/gdb1.c.o -c "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/gdb1.c"
+CMakeFiles/gdb1.dir/app/src/gdb1.c.o: CMakeFiles/gdb1.dir/flags.make
+CMakeFiles/gdb1.dir/app/src/gdb1.c.o: ../app/src/gdb1.c
+CMakeFiles/gdb1.dir/app/src/gdb1.c.o: CMakeFiles/gdb1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gdb1.dir/app/src/gdb1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/gdb1.dir/app/src/gdb1.c.o -MF CMakeFiles/gdb1.dir/app/src/gdb1.c.o.d -o CMakeFiles/gdb1.dir/app/src/gdb1.c.o -c "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/app/src/gdb1.c"
 
-CMakeFiles/gdb1.dir/gdb1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdb1.dir/gdb1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/gdb1.c" > CMakeFiles/gdb1.dir/gdb1.c.i
+CMakeFiles/gdb1.dir/app/src/gdb1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdb1.dir/app/src/gdb1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/app/src/gdb1.c" > CMakeFiles/gdb1.dir/app/src/gdb1.c.i
 
-CMakeFiles/gdb1.dir/gdb1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdb1.dir/gdb1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/gdb1.c" -o CMakeFiles/gdb1.dir/gdb1.c.s
+CMakeFiles/gdb1.dir/app/src/gdb1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdb1.dir/app/src/gdb1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/app/src/gdb1.c" -o CMakeFiles/gdb1.dir/app/src/gdb1.c.s
 
 # Object files for target gdb1
 gdb1_OBJECTS = \
-"CMakeFiles/gdb1.dir/gdb1.c.o"
+"CMakeFiles/gdb1.dir/app/src/gdb1.c.o"
 
 # External object files for target gdb1
 gdb1_EXTERNAL_OBJECTS =
 
-gdb1: CMakeFiles/gdb1.dir/gdb1.c.o
+gdb1: CMakeFiles/gdb1.dir/app/src/gdb1.c.o
 gdb1: CMakeFiles/gdb1.dir/build.make
 gdb1: CMakeFiles/gdb1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable gdb1"

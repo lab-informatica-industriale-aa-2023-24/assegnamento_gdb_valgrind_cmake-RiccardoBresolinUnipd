@@ -63,98 +63,113 @@ CMAKE_BINARY_DIR = "/home/richi/Laboratorio informatica/assegnamenti/assegnament
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/gdb1.dir/all
-all: CMakeFiles/gdb2.dir/all
-all: CMakeFiles/gdb3.dir/all
+all: app/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: app/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/gdb1.dir/clean
-clean: CMakeFiles/gdb2.dir/clean
-clean: CMakeFiles/gdb3.dir/clean
+clean: app/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gdb1.dir
+# Directory level rules for directory app
+
+# Recursive "all" directory target.
+app/all: app/CMakeFiles/gdb1.dir/all
+app/all: app/CMakeFiles/gdb2.dir/all
+app/all: app/CMakeFiles/gdb3.dir/all
+.PHONY : app/all
+
+# Recursive "preinstall" directory target.
+app/preinstall:
+.PHONY : app/preinstall
+
+# Recursive "clean" directory target.
+app/clean: app/CMakeFiles/gdb1.dir/clean
+app/clean: app/CMakeFiles/gdb2.dir/clean
+app/clean: app/CMakeFiles/gdb3.dir/clean
+.PHONY : app/clean
+
+#=============================================================================
+# Target rules for target app/CMakeFiles/gdb1.dir
 
 # All Build rule for target.
-CMakeFiles/gdb1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/build
+app/CMakeFiles/gdb1.dir/all:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb1.dir/build.make app/CMakeFiles/gdb1.dir/depend
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb1.dir/build.make app/CMakeFiles/gdb1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" --progress-num=1,2 "Built target gdb1"
-.PHONY : CMakeFiles/gdb1.dir/all
+.PHONY : app/CMakeFiles/gdb1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gdb1.dir/rule: cmake_check_build_system
+app/CMakeFiles/gdb1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gdb1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/gdb1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" 0
-.PHONY : CMakeFiles/gdb1.dir/rule
+.PHONY : app/CMakeFiles/gdb1.dir/rule
 
 # Convenience name for target.
-gdb1: CMakeFiles/gdb1.dir/rule
+gdb1: app/CMakeFiles/gdb1.dir/rule
 .PHONY : gdb1
 
 # clean rule for target.
-CMakeFiles/gdb1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/clean
-.PHONY : CMakeFiles/gdb1.dir/clean
+app/CMakeFiles/gdb1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb1.dir/build.make app/CMakeFiles/gdb1.dir/clean
+.PHONY : app/CMakeFiles/gdb1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gdb2.dir
+# Target rules for target app/CMakeFiles/gdb2.dir
 
 # All Build rule for target.
-CMakeFiles/gdb2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/build
+app/CMakeFiles/gdb2.dir/all:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb2.dir/build.make app/CMakeFiles/gdb2.dir/depend
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb2.dir/build.make app/CMakeFiles/gdb2.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" --progress-num=3,4 "Built target gdb2"
-.PHONY : CMakeFiles/gdb2.dir/all
+.PHONY : app/CMakeFiles/gdb2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gdb2.dir/rule: cmake_check_build_system
+app/CMakeFiles/gdb2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gdb2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/gdb2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" 0
-.PHONY : CMakeFiles/gdb2.dir/rule
+.PHONY : app/CMakeFiles/gdb2.dir/rule
 
 # Convenience name for target.
-gdb2: CMakeFiles/gdb2.dir/rule
+gdb2: app/CMakeFiles/gdb2.dir/rule
 .PHONY : gdb2
 
 # clean rule for target.
-CMakeFiles/gdb2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/clean
-.PHONY : CMakeFiles/gdb2.dir/clean
+app/CMakeFiles/gdb2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb2.dir/build.make app/CMakeFiles/gdb2.dir/clean
+.PHONY : app/CMakeFiles/gdb2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/gdb3.dir
+# Target rules for target app/CMakeFiles/gdb3.dir
 
 # All Build rule for target.
-CMakeFiles/gdb3.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/build
+app/CMakeFiles/gdb3.dir/all:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb3.dir/build.make app/CMakeFiles/gdb3.dir/depend
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb3.dir/build.make app/CMakeFiles/gdb3.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" --progress-num=5,6 "Built target gdb3"
-.PHONY : CMakeFiles/gdb3.dir/all
+.PHONY : app/CMakeFiles/gdb3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/gdb3.dir/rule: cmake_check_build_system
+app/CMakeFiles/gdb3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gdb3.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/gdb3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles" 0
-.PHONY : CMakeFiles/gdb3.dir/rule
+.PHONY : app/CMakeFiles/gdb3.dir/rule
 
 # Convenience name for target.
-gdb3: CMakeFiles/gdb3.dir/rule
+gdb3: app/CMakeFiles/gdb3.dir/rule
 .PHONY : gdb3
 
 # clean rule for target.
-CMakeFiles/gdb3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/clean
-.PHONY : CMakeFiles/gdb3.dir/clean
+app/CMakeFiles/gdb3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb3.dir/build.make app/CMakeFiles/gdb3.dir/clean
+.PHONY : app/CMakeFiles/gdb3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

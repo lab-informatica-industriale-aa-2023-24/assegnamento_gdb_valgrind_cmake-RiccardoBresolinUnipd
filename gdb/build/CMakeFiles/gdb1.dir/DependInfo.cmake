@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/gdb1.c" "CMakeFiles/gdb1.dir/gdb1.c.o" "gcc" "CMakeFiles/gdb1.dir/gdb1.c.o.d"
+  "/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/app/src/gdb1.c" "CMakeFiles/gdb1.dir/app/src/gdb1.c.o" "gcc" "CMakeFiles/gdb1.dir/app/src/gdb1.c.o.d"
   )
 
 # Targets to which this target links.

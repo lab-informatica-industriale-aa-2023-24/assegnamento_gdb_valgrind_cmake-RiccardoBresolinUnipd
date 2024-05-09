@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gdb2.dir/gdb2.c.o"
-  "CMakeFiles/gdb2.dir/gdb2.c.o.d"
+  "CMakeFiles/gdb2.dir/app/src/gdb2.c.o"
+  "CMakeFiles/gdb2.dir/app/src/gdb2.c.o.d"
   "gdb2"
   "gdb2.pdb"
 )

@@ -1,13 +1,19 @@
-# Works with 3.10.2 and tested through 3.11
-cmake_minimum_required(VERSION 3.10.2...3.11)
+cmake_minimum_required( VERSION 3.10.2 )
 
-# Project name and a few useful settings. Other commands can pick up the results
-project(file_valgrind
-    VERSION 0.1
-    DESCRIPTION "Implementazione file valgrind"
-    LANGUAGES C)
+project( compilazione 
+         VERSION 0.9
+         DESCRIPTION "Compilazione generale" )
 
-add_executable(valgrind1 valgrind1.c)
-add_executable(valgrind2 valgrind2.c)
-add_executable(valgrind3 valgrind3.c)
-add_executable(valgrind4 valgrind4.c)
+if (MSVC)
+    # warning level 4 and all warnings as errors
+    add_compile_options(/W4 /WX)
+else()
+    # lots of warnings and all warnings as errors
+    add_compile_options(-Wall -Wextra -pedantic -Werror)
+endif()
+
+# Imposta la directory di output per gli eseguibili nella directory build
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+
+# Create the targets for the entire example-app.
+add_subdirectory( app )

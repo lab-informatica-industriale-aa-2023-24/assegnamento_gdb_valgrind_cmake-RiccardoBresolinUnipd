@@ -126,7 +126,7 @@ valgrind1: cmake_check_build_system
 
 # fast build rule for target.
 valgrind1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind1.dir/build.make CMakeFiles/valgrind1.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/valgrind1.dir/build.make app/CMakeFiles/valgrind1.dir/build
 .PHONY : valgrind1/fast
 
 #=============================================================================
@@ -139,7 +139,7 @@ valgrind2: cmake_check_build_system
 
 # fast build rule for target.
 valgrind2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind2.dir/build.make CMakeFiles/valgrind2.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/valgrind2.dir/build.make app/CMakeFiles/valgrind2.dir/build
 .PHONY : valgrind2/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ valgrind3: cmake_check_build_system
 
 # fast build rule for target.
 valgrind3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind3.dir/build.make CMakeFiles/valgrind3.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/valgrind3.dir/build.make app/CMakeFiles/valgrind3.dir/build
 .PHONY : valgrind3/fast
 
 #=============================================================================
@@ -165,104 +165,8 @@ valgrind4: cmake_check_build_system
 
 # fast build rule for target.
 valgrind4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind4.dir/build.make CMakeFiles/valgrind4.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/valgrind4.dir/build.make app/CMakeFiles/valgrind4.dir/build
 .PHONY : valgrind4/fast
-
-valgrind1.o: valgrind1.c.o
-.PHONY : valgrind1.o
-
-# target to build an object file
-valgrind1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind1.dir/build.make CMakeFiles/valgrind1.dir/valgrind1.c.o
-.PHONY : valgrind1.c.o
-
-valgrind1.i: valgrind1.c.i
-.PHONY : valgrind1.i
-
-# target to preprocess a source file
-valgrind1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind1.dir/build.make CMakeFiles/valgrind1.dir/valgrind1.c.i
-.PHONY : valgrind1.c.i
-
-valgrind1.s: valgrind1.c.s
-.PHONY : valgrind1.s
-
-# target to generate assembly for a file
-valgrind1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind1.dir/build.make CMakeFiles/valgrind1.dir/valgrind1.c.s
-.PHONY : valgrind1.c.s
-
-valgrind2.o: valgrind2.c.o
-.PHONY : valgrind2.o
-
-# target to build an object file
-valgrind2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind2.dir/build.make CMakeFiles/valgrind2.dir/valgrind2.c.o
-.PHONY : valgrind2.c.o
-
-valgrind2.i: valgrind2.c.i
-.PHONY : valgrind2.i
-
-# target to preprocess a source file
-valgrind2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind2.dir/build.make CMakeFiles/valgrind2.dir/valgrind2.c.i
-.PHONY : valgrind2.c.i
-
-valgrind2.s: valgrind2.c.s
-.PHONY : valgrind2.s
-
-# target to generate assembly for a file
-valgrind2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind2.dir/build.make CMakeFiles/valgrind2.dir/valgrind2.c.s
-.PHONY : valgrind2.c.s
-
-valgrind3.o: valgrind3.c.o
-.PHONY : valgrind3.o
-
-# target to build an object file
-valgrind3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind3.dir/build.make CMakeFiles/valgrind3.dir/valgrind3.c.o
-.PHONY : valgrind3.c.o
-
-valgrind3.i: valgrind3.c.i
-.PHONY : valgrind3.i
-
-# target to preprocess a source file
-valgrind3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind3.dir/build.make CMakeFiles/valgrind3.dir/valgrind3.c.i
-.PHONY : valgrind3.c.i
-
-valgrind3.s: valgrind3.c.s
-.PHONY : valgrind3.s
-
-# target to generate assembly for a file
-valgrind3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind3.dir/build.make CMakeFiles/valgrind3.dir/valgrind3.c.s
-.PHONY : valgrind3.c.s
-
-valgrind4.o: valgrind4.c.o
-.PHONY : valgrind4.o
-
-# target to build an object file
-valgrind4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind4.dir/build.make CMakeFiles/valgrind4.dir/valgrind4.c.o
-.PHONY : valgrind4.c.o
-
-valgrind4.i: valgrind4.c.i
-.PHONY : valgrind4.i
-
-# target to preprocess a source file
-valgrind4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind4.dir/build.make CMakeFiles/valgrind4.dir/valgrind4.c.i
-.PHONY : valgrind4.c.i
-
-valgrind4.s: valgrind4.c.s
-.PHONY : valgrind4.s
-
-# target to generate assembly for a file
-valgrind4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/valgrind4.dir/build.make CMakeFiles/valgrind4.dir/valgrind4.c.s
-.PHONY : valgrind4.c.s
 
 # Help Target
 help:
@@ -276,18 +180,6 @@ help:
 	@echo "... valgrind2"
 	@echo "... valgrind3"
 	@echo "... valgrind4"
-	@echo "... valgrind1.o"
-	@echo "... valgrind1.i"
-	@echo "... valgrind1.s"
-	@echo "... valgrind2.o"
-	@echo "... valgrind2.i"
-	@echo "... valgrind2.s"
-	@echo "... valgrind3.o"
-	@echo "... valgrind3.i"
-	@echo "... valgrind3.s"
-	@echo "... valgrind4.o"
-	@echo "... valgrind4.i"
-	@echo "... valgrind4.s"
 .PHONY : help
 
 

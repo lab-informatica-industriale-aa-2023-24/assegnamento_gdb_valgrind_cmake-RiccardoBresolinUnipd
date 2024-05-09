@@ -126,7 +126,7 @@ gdb1: cmake_check_build_system
 
 # fast build rule for target.
 gdb1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb1.dir/build.make app/CMakeFiles/gdb1.dir/build
 .PHONY : gdb1/fast
 
 #=============================================================================
@@ -139,7 +139,7 @@ gdb2: cmake_check_build_system
 
 # fast build rule for target.
 gdb2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb2.dir/build.make app/CMakeFiles/gdb2.dir/build
 .PHONY : gdb2/fast
 
 #=============================================================================
@@ -152,80 +152,8 @@ gdb3: cmake_check_build_system
 
 # fast build rule for target.
 gdb3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/build
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/gdb3.dir/build.make app/CMakeFiles/gdb3.dir/build
 .PHONY : gdb3/fast
-
-gdb1.o: gdb1.c.o
-.PHONY : gdb1.o
-
-# target to build an object file
-gdb1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/gdb1.c.o
-.PHONY : gdb1.c.o
-
-gdb1.i: gdb1.c.i
-.PHONY : gdb1.i
-
-# target to preprocess a source file
-gdb1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/gdb1.c.i
-.PHONY : gdb1.c.i
-
-gdb1.s: gdb1.c.s
-.PHONY : gdb1.s
-
-# target to generate assembly for a file
-gdb1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb1.dir/build.make CMakeFiles/gdb1.dir/gdb1.c.s
-.PHONY : gdb1.c.s
-
-gdb2.o: gdb2.c.o
-.PHONY : gdb2.o
-
-# target to build an object file
-gdb2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/gdb2.c.o
-.PHONY : gdb2.c.o
-
-gdb2.i: gdb2.c.i
-.PHONY : gdb2.i
-
-# target to preprocess a source file
-gdb2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/gdb2.c.i
-.PHONY : gdb2.c.i
-
-gdb2.s: gdb2.c.s
-.PHONY : gdb2.s
-
-# target to generate assembly for a file
-gdb2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb2.dir/build.make CMakeFiles/gdb2.dir/gdb2.c.s
-.PHONY : gdb2.c.s
-
-gdb3.o: gdb3.c.o
-.PHONY : gdb3.o
-
-# target to build an object file
-gdb3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/gdb3.c.o
-.PHONY : gdb3.c.o
-
-gdb3.i: gdb3.c.i
-.PHONY : gdb3.i
-
-# target to preprocess a source file
-gdb3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/gdb3.c.i
-.PHONY : gdb3.c.i
-
-gdb3.s: gdb3.c.s
-.PHONY : gdb3.s
-
-# target to generate assembly for a file
-gdb3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gdb3.dir/build.make CMakeFiles/gdb3.dir/gdb3.c.s
-.PHONY : gdb3.c.s
 
 # Help Target
 help:
@@ -238,15 +166,6 @@ help:
 	@echo "... gdb1"
 	@echo "... gdb2"
 	@echo "... gdb3"
-	@echo "... gdb1.o"
-	@echo "... gdb1.i"
-	@echo "... gdb1.s"
-	@echo "... gdb2.o"
-	@echo "... gdb2.i"
-	@echo "... gdb2.s"
-	@echo "... gdb3.o"
-	@echo "... gdb3.i"
-	@echo "... gdb3.s"
 .PHONY : help
 
 
