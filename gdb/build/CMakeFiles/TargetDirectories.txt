@@ -1,0 +1,7 @@
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles/edit_cache.dir
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/CMakeFiles/rebuild_cache.dir
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/app/CMakeFiles/gdb1.dir
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/app/CMakeFiles/gdb2.dir
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/app/CMakeFiles/gdb3.dir
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/app/CMakeFiles/edit_cache.dir
+/home/richi/Laboratorio informatica/assegnamenti/assegnamento_gdb_valgrind_cmake-RiccardoBresolinUnipd/gdb/build/app/CMakeFiles/rebuild_cache.dir
